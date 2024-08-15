@@ -12,8 +12,8 @@ function anox_widgets_register()
         'after_title' => '</h2>',
     ));
     register_sidebar(array(
-        'name' => 'Footer Search Area',
-        'id' => 'footer-search',
+        'name' => 'Footer Subscribe Area',
+        'id' => 'footer-subscribe',
         'description' => __('Apperas in the sidebar in blog page and also other page', 'anox'),
         'before_widget' => '<div class="footer-widget">',
         'after_widget' => '</div>',

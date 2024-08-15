@@ -1,3 +1,9 @@
+:root{
+  --primary: #141736;
+  --secondary: #73737A;
+  --border: #E1E7EC;
+}
+
 // Common css stying
 
 h1,
@@ -5,17 +11,19 @@ h2,
 h3,
 h4,
 h5,
-h5 {
+h5,
+h6 {
   font-family: "Urbanist", sans-serif;
   font-weight: 700;
   line-height: 94px;
-  letter-spacing: -1.68;
+  letter-spacing: -1px;
   text-transform: capitalize;
-}
+  margin-bottom: 0px !important;
+}  
 
 h1 {
   font-size: 84px;
-}
+}  
 
 p {
     font-family: "Inter Tight", sans-serif;
@@ -23,12 +31,14 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 0px;
+    color: var(--secondary);
+}    
 
-}
-
-button, a , button a {
+button, a , button a, p a  {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-}
+}    
+
